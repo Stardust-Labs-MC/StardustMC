@@ -1,0 +1,29 @@
+name: Bug report
+description: Create a bug report for StardustMC
+title: "[Bug]"
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is for bug reports only. General support questions should be redirected to our [Discord](https://www.discord.gg/stardustlabs), and suggestions should be made in [Discussions](https://github.com/Stardust-Labs-MC/StardustMC/discussions).
+  - type: input
+    id: username
+    attributes:
+      label: Username
+      description: What's your username?
+      placeholder: ex. catter1
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Describe the issue
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
