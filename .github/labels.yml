@@ -1,0 +1,15 @@
+- color: d73a4a
+  name: bug
+  description: Something is broken.
+- color: ffffff
+  name: duplicate
+  description: Similar issue or pull request already exists.
+- color: 1d76db
+  name: wip
+  description: Currently being worked on.
+- color: d876e3
+  name: help
+  description: More information is needed for this.
+- color: e4e669
+  name: wontfix
+  description: Not an issue, or not planned.
